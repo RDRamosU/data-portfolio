@@ -1,36 +1,108 @@
-# Portafolio de análisis de datos — Ruben Dario
+# 📊 Portafolio de Análisis de Datos — Ruben Dario Ramos
 
-Colección de proyectos de análisis de datos usando exclusivamente fuentes públicas 
-y abiertas. Cada proyecto sigue el ciclo completo de análisis:
+![Estado](https://img.shields.io/badge/Estado-En%20progreso-yellow)
+![Herramientas](https://img.shields.io/badge/Python-3.11+-blue)
+![Licencia](https://img.shields.io/badge/Licencia-MIT-green)
 
-1. Definición del problema
-2. Búsqueda y obtención de datos relevantes
-3. Limpieza y preparación de datos
-4. Análisis exploratorio (EDA)
-5. Visualización y presentación de hallazgos
+Colección de proyectos de análisis de datos desarrollados como parte del programa
+**Fundamentos de Análisis de Datos** impartido por Cisco y patrocinado por el
+**MICITT de Costa Rica**.
 
-## Proyectos
+Cada proyecto utiliza exclusivamente fuentes de datos públicas y abiertas,
+sin información personal identificable (PII), y sigue el ciclo completo de análisis:
 
-| # | Repositorio | Tema | Estado | Dataset |
-|---|-------------|------|--------|---------|
-| 1 | [cr-calidad-aire-eda](https://github.com/RDRamosU/cr-calidad-aire-eda) | Calidad del aire en Costa Rica | En progreso | SINAC / MINAE |
-| 2 | [cr-exportaciones-eda](https://github.com/RDRamosU/cr-exportaciones-eda) | Exportaciones costarricenses | Pendiente | BCCR / COMEX |
-| 3 | [cr-salud-publica-analisis](https://github.com/RDRamosU/cr-salud-publica-analisis) | Indicadores de salud pública | Pendiente | OPS / CCSS |
-| 4 | [cr-turismo-economia-eda](https://github.com/RDRamosU/cr-turismo-economia-eda) | Turismo y economía | Pendiente | ICT / INEC |
+1. 🔍 Definición del problema
+2. 📥 Búsqueda y obtención de datos relevantes
+3. 🧹 Limpieza y preparación de datos
+4. 📈 Análisis exploratorio (EDA)
+5. 📊 Visualización y presentación de hallazgos
 
-## Herramientas y entorno
+---
 
-- **Lenguaje:** Python 3.11+
-- **Librerías:** pandas · NumPy · Matplotlib · Seaborn
-- **Entorno:** Jupyter Notebook / Google Colab
-- **Control de versiones:** Git + GitHub
+## 🗂️ Proyectos
 
-## Política de datos
+### Serie: Radiografía de Empleabilidad STEAM en Costa Rica
 
-Todos los datasets utilizados son de acceso público, no contienen información 
-personal identificable (PII) y se citan con su fuente oficial en cada proyecto.
+Una serie de cuatro proyectos interconectados que analizan el ecosistema STEAM
+costarricense desde la formación universitaria hasta la inserción laboral,
+con una comparativa regional al cierre.
 
-## Formación relacionada
+| # | Repositorio | Tema | Estado | Fuente |
+|---|-------------|------|--------|--------|
+| 1 | [cr-graduados-steam-analisis](https://github.com/RDRamosU/cr-graduados-steam-analisis) | ¿Cuántos graduados STEAM produce CR y en qué áreas? | 🟡 En progreso | OPES-CONARE |
+| 2 | cr-mercado-laboral-steam-cr | ¿Cómo está el mercado laboral tech en CR? Oferta, demanda y brechas | ⚪ Pendiente | MICITT / INEC |
+| 3 | cr-habilidades-demanda-tech | ¿Qué habilidades demandan las empresas tech en CR? | ⚪ Pendiente | Por definir |
+| 4 | cr-steam-comparativa-regional | Comparativa regional: CR vs Latinoamérica en empleo STEAM | ⚪ Pendiente | OCDE / Banco Mundial |
 
-- Introducción a la Ciencia de Datos
+> **Nota:** Al completar los cuatro proyectos, los hallazgos se consolidarán
+> en un artículo publicado en LinkedIn usando técnicas de storytelling
+> y neurolingüística.
+
+---
+
+## 🛠️ Herramientas y entorno
+
+| Categoría             | Tecnología                      |
+|-----------------------|---------------------------------|
+| Lenguaje              | Python 3.11+                    |
+| Manipulación de datos | pandas · NumPy                  |
+| Visualización         | Matplotlib · Seaborn            |
+| Extracción de PDFs    | tabula-py · pdfplumber          |
+| Entorno               | Jupyter Notebook / Google Colab |
+| Control de versiones  | Git + GitHub                    |
+
+---
+
+## 📋 Metodología
+
+Todos los proyectos de esta serie siguen la misma estructura de carpetas
+y nomenclatura de notebooks para facilitar la lectura y revisión:
+
+```
+nombre-proyecto/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── data/
+│   ├── raw/          # Datos originales sin modificar
+│   └── processed/    # Datos limpios listos para análisis
+├── notebooks/
+│   ├── 01_definicion_problema.ipynb
+│   ├── 02_exploracion_datos.ipynb
+│   ├── 03_limpieza_preparacion.ipynb
+│   └── 04_visualizaciones_hallazgos.ipynb
+└── assets/
+    └── graficas/     # Visualizaciones exportadas
+```
+
+---
+
+## 🔒 Política de datos
+
+- Todos los datasets utilizados son de **acceso público**.
+- Ningún proyecto contiene **información personal identificable (PII)**.
+- Los datos corresponden a estadísticas **agregadas e institucionales**.
+- Cada proyecto cita su fuente oficial con enlace directo al repositorio original.
+
+---
+
+## 🎓 Formación relacionada
+
+- Introducción a la Ciencia de Datos — Cisco / MICITT Costa Rica
 - Fundamentos de Análisis de Datos — Cisco / MICITT Costa Rica
+
+---
+
+## 👤 Autor
+
+**Ruben Dario Ramos**
+Ingeniero Informático · Desarrollador Web · Analista de Datos en formación
+
+🌐 [rubendario.dev](https://rubendario.dev)
+💼 [LinkedIn](https://www.linkedin.com/in/ruben-ramos)
+🐙 [GitHub](https://github.com/RDRamosU)
+
+---
+
+*Este portafolio está en construcción activa. Cada proyecto se publica
+al completarse con su análisis, visualizaciones y conclusiones.*
