@@ -31,7 +31,7 @@ con una comparativa regional al cierre.
 |---|-------------|------|--------|--------|
 | 1 | [cr-graduados-steam-analisis](...) | Graduados STEAM en Costa Rica 2014–2022 | [🟢 Completado](https://www.linkedin.com/pulse/graduados-steam-de-las-universidades-estatales-costa-rica-zaj4e) | OPES-CONARE |
 | 2 | [mercado-laboral-steam-cr](...) | ¿Existe una brecha entre graduados STEAM y empleos tech en CR? | [🟢 Completado](...) | CONARE · MICITT · BCCR · PROCOMER · INEC |
-| 3 | cr-habilidades-demanda-tech | ¿Qué habilidades demandan las empresas tech en CR? | ⚪ Pendiente | Por definir |
+| 3 | [cr-habilidades-demanda-tech](https://github.com/RDRamosU/cr-habilidades-demanda-tech) | ¿Qué habilidades demandan las empresas tech en CR? | 🟢 Completado | MTSS · CONARE |
 | 4 | cr-steam-comparativa-regional | Comparativa regional: CR vs Latinoamérica en empleo STEAM | ⚪ Pendiente | OCDE / Banco Mundial |
 
 > **Nota:** Al completar los cuatro proyectos, los hallazgos se consolidarán
